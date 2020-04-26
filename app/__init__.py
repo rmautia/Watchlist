@@ -1,4 +1,5 @@
 from flask import Flask
+from . import main
 from flask_bootstrap import Bootstrap
 from config import config_options
 
