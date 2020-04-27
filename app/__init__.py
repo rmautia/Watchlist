@@ -1,5 +1,6 @@
 from flask import Flask
-from . import main
+from .main import main
+from flask import Blueprint
 from flask_bootstrap import Bootstrap
 from config import config_options
 
